@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--name 是自定义属性名，一般采用驼峰命名，可以随意。 format 是属性的单位-->
+    <attr name="titleSize" format="dimension"></attr>
+    <attr name="titleText" format="string"></attr>
+    <attr name="titleColor" format="color"></attr>
+    <attr name="titleBackgroundColor" format="color"></attr>
+
+    <!--name 是自定义控件的类名-->
+    <declare-styleable name="MyCustomView">
+        <attr name="titleSize"></attr>
+        <attr name="titleText"></attr>
+        <attr name="titleColor"></attr>
+        <attr name="titleBackgroundColor"></attr>
+    </declare-styleable>
+    <declare-styleable name="ColourImageView">
+        <attr name="border_color" format="color|reference"></attr>
+    </declare-styleable>
+</resources>
